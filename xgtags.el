@@ -273,7 +273,7 @@ killed!"
   :type 'string
   :group 'xgtags)
 
-(defconst xgtags--symbol-regexp "[A-Za-z_][A-Za-z_0-9]*"
+(defconst xgtags--symbol-regexp "[A-Za-z_][A-Za-z_0-9-]*"
   "Regexp matching tag name.")
 (defconst xgtags--definition-regexp "#[ \t]*define[ \t]+\\|ENTRY(\\|ALTENTRY("
   "Regexp matching tag definition name.")
