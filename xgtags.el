@@ -292,7 +292,7 @@ killed!"
 (setq xgtags-mode-map
       (let ((keymap (make-sparse-keymap))
             (sub-keymap (make-sparse-keymap)))
-        (define-key keymap "\C-cw" sub-keymap)
+        (define-key keymap "\C-cg" sub-keymap)
         (define-key sub-keymap "d" 'xgtags-find-tag)
         (define-key sub-keymap "c" 'xgtags-find-rtag)
         (define-key sub-keymap "s" 'xgtags-find-symbol)
